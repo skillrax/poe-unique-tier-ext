@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PoE Wiki Unique Tiers
 // @namespace    poe-unique-tier-ext
-// @version      0.2.0
+// @version      0.2.1
 // @description  Shows a unique item's drop tier (from Guide:Analysis of unique item tiers) on its poewiki.net page.
 // @author       skillrax
 // @license      MIT
@@ -18,6 +18,8 @@
 // @grant        GM.setValue
 // @run-at       document-idle
 // ==/UserScript==
+
+/* global module */ // only defined when Node loads this file for testing
 
 /* ---------- Parser (pure; also loadable from Node for testing) ---------- */
 
